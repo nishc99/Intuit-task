@@ -1,0 +1,132 @@
+.cashflowCon{
+    height: 96vh;
+    width: 83.5%;
+    background-color: white;
+    justify-content: left;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    /* margin-left: 200px;
+    margin-top: -300px; */
+}
+.titlecf{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.buttoncon{
+    justify-content: end;
+    text-align: right;
+    padding-top: 15px;
+    padding-right:60px ;
+}
+.buttonCon{
+    width: 97%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 35% 62%;
+    padding-left: 1%;
+}
+.sendMoney{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 178px;
+    border-radius: 27px;
+}
+.sendMoney:hover{
+    background-color: rgb(103, 255, 103);
+}
+.feedbackbtn{
+    background: none;
+    border: none;
+    color: rgb(42, 170, 239);
+    padding-left: 40px;
+    font-weight: bold;
+}
+/* .bottomCon{
+    width: 92%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    column-gap: 14px;
+    padding: 50px;
+} */
+.accountDetails{
+    border: 2px solid silver;
+    height: 100%;
+    border-radius: 8px;
+}
+.quickbooks{
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    background-color: aliceblue;
+    margin-top:20px;
+    font-size: 14px;
+    padding-top: -20px;
+
+}
+.quickbooks1{
+    text-align: right;
+    margin-left: auto;
+    padding-right: 20px;
+}
+.prequalified{
+    width:100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.graphCon{
+    margin-left: 15px;
+    border: 2px solid silver;
+    height: 100%;
+    border-radius: 8px;
+}
+.gtop{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+
+}
+.moneycash{
+    justify-content: end;
+    text-align: right;
+    padding: 20px;
+}
+.moneybtn{
+    justify-content: end;
+    text-align: center;
+    background: none;
+    color: silver;
+    height: 30px;
+    width: 120px;
+    border: 2px solid silver;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+.moneybtn:hover{
+    background-color: rgb(0, 98, 255);
+}
+.cashbtn{
+    justify-content: end;
+    text-align: center;
+    background: none;
+    color: silver;
+    height: 30px;
+    width: 120px;
+    border: 2px solid silver;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-left: none;
+}
+.cashbtn:hover{
+    background-color: rgb(0, 98, 255);
+}
+.bag{
+    margin-top: 20px;
+    margin-left: 30px;
+}

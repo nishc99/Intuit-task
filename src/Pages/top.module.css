@@ -1,0 +1,34 @@
+.topContainer{
+    height: 50px;
+    width: 83.5%;
+    background-color: white;
+   position: absolute;
+   left: 200px;
+   top: 0;
+}
+.container{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    justify-content: left;
+    text-align: left;
+
+}
+.toplogo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top:13px;
+}
+
+.title{
+    padding-left: 30px;
+    
+}
+.leftnav{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

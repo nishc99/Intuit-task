@@ -1,0 +1,166 @@
+.container{
+    height: 87vh;
+    width: 30%;
+    background-color: white;
+    border: 1px solid gray;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.titleimg{
+    display: block;
+    margin-left: 580px;
+    height: 20px;
+    width: 94.33px;
+}
+.titlelogo1{
+    height: 22px;
+    width: 22px;
+    margin-left: 470px;
+    margin-top: 20px;
+}
+.titlelabel{
+    margin-top: 20px; 
+    cursor: pointer;
+}
+.titlelogo2{
+    height: 22px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.titlelogo3{
+    height: 20px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.head{
+    color: #393a3d;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+.head2{
+    color: #393a3d;
+    margin-left: 10px;
+    
+}
+.googlebox{
+    min-height: 44px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(141, 144, 150);
+    display: inline-block;
+    line-height: 32px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.head3{
+    margin-top: -18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(57, 58, 61);
+}
+.googleimg{
+    padding-left: 80px;
+    padding-top: 4px;
+    vertical-align: top;
+}
+.or{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.or1{
+    flex: 1;
+    border-bottom: 1px solid rgb(186, 190, 197);
+    margin: auto 10px;
+}
+.or2{
+    margin: 10px;
+}
+.or3{
+    flex: 1;
+    border-bottom: 1px solid rgb(186, 190, 197);
+    margin: auto 10px;
+}
+.email{
+    display: flex;
+}
+.id{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.id:hover{
+    text-decoration: underline;
+}
+.phone{
+    margin-left: 120px; 
+    cursor: pointer;
+}
+.phone:hover{
+    text-decoration: underline;
+}
+.box{
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-color: rgb(15, 230, 15);
+}
+.check{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.but{
+    margin-left: 30px;
+    width: 300px;
+    height: 30px;
+    border-color: rgb(15, 230, 15);; 
+    background-color: rgb(15, 230, 15);
+    color: white;
+    cursor: pointer;
+    font-weight: 200;
+    margin-top: 15px;
+}
+.text{
+    margin-left: 45px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.text1{
+    color: blue;
+    cursor: pointer;
+}
+.text2{
+    color: blue;
+    margin-left: 110px;
+    cursor: pointer;
+}
+.try{
+    font-size: 13px; 
+    line-height: 20px;
+    margin-left: 120px;
+    color: blue;
+    cursor: pointer;
+}
+.textarea{
+    margin-top: 20px;
+}
+.new{
+    font-size: 13px; 
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
